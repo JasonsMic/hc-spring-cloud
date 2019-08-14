@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: hc-gate-way
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8090/eureka/
